@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The CSP Status Page"
-date:   2017-01-27 21:50:06 +0000
+date:   2017-01-27 20:12:06 -0500
 ---
 This website will be used in the rare event that problems occur with the Cyber Skills Platform.
 
