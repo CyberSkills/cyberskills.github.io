@@ -1,0 +1,24 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
+
+    <div class="csp-status">
+      <div class="csp-status-warn">
+        <b>Current Status</b>: 
+          <span class="csp-status-{{site.csp_status_severity}}">
+            {% if site.csp_status_severity=="ok" %}
+                {{site.csp_status_message_ok}}
+            {% elsif site.csp_status_severity=="minor" %}
+                {{site.csp_status_message_minor}}
+            {% elsif site.csp_status_severity=="major" %}
+                {{site.csp_status_message_major}}
+            {% endif %}
+          </span>
+      </div>
+    </div>
+
+  </div>
+
+</header>

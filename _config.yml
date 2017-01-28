@@ -1,1 +1,34 @@
-theme: jekyll-theme-minimal
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CSP Status
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  This site is used to convey status information about any problems that have occured on the 
+  Cyber Skills Platform. If you have noticed an issue but do not see it listed here, please send
+  us an email.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https:/cyberskills.github.io" # the base hostname & protocol for your site
+
+#This is the section to edit for CSP Status changes
+# Change csp_status_severity when the status changes
+csp_status_severity: "ok" # this can be either "ok", "minor", "major"
+csp_status_message_ok: "All Systems Normal"         # This is not meant to be changed often
+csp_status_message_minor: "Some Problems Reported"  # This is not meant to be changed often
+csp_status_message_major: "Known Problems"          # This is not meant to be changed often
+
+# Build settings
+markdown: kramdown
+theme: minima
