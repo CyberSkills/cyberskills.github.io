@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CSP Status
-email: your-email@domain.com
+email: cyberwargames@symantec.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site is used to convey status information about any problems that have occured on the 
+  This site is used to convey status information about any problems that have occured on the
   Cyber Skills Platform. If you have noticed an issue but do not see it listed here, please send
   us an email.
 baseurl: "" # the subpath of your site, e.g. /blog
