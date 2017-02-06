@@ -22,6 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https:/cyberskills.github.io" # the base hostname & protocol for your site
 timezone: "America/New_York"
+google_analytics_ua: "UA-52891418-4"
 
 #This is the section to edit for CSP Status changes
 # Change csp_status_severity when the status changes
