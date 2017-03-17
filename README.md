@@ -90,3 +90,5 @@ The two files modified from the default are:
   - Modified to remove navbar and replace it with the status.
  - `_layouts/post.html`
   - Modified to show hour, minute, and timezone information about a post.
+
+Updated by JL
