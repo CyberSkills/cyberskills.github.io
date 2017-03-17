@@ -26,7 +26,7 @@ google_analytics_ua: "UA-52891418-4"
 
 #This is the section to edit for CSP Status changes
 # Change csp_status_severity when the status changes
-csp_status_severity: "ok" # this can be either "ok", "minor", "major"
+csp_status_severity: "minor" # this can be either "ok", "minor", "major"
 csp_status_message_ok: "All Systems Normal"         # This is not meant to be changed often
 csp_status_message_minor: "Some Problems Reported"  # This is not meant to be changed often
 csp_status_message_major: "Known Problems"          # This is not meant to be changed often
