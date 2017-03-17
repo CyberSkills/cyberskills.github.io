@@ -91,4 +91,3 @@ The two files modified from the default are:
  - `_layouts/post.html`
   - Modified to show hour, minute, and timezone information about a post.
 
-Updated by JL
