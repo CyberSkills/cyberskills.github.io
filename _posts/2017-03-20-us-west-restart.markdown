@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Target and VDI issues in us-west"
+title:  "Target and VDI/VPN issues in us-west"
 date:   2017-03-20 11:54:00 -0400
 ---
 
