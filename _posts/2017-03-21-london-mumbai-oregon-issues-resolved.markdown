@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VDI/Target Issues in resolved"
+title:  "VDI/VPN/Target Issues resolved"
 date:   2017-03-21 10:12:00 -0400
 ---
 
